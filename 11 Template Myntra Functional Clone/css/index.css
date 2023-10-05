@@ -1,3 +1,85 @@
+/***************** Item Page CSS **************************/
+/*.item-details {
+    cursor: pointer;
+    width: 250px;
+    margin: 10px;
+}
+.stars {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+}
+.company {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+.item-name {
+    color: #535766;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.price-container {
+    margin-top: 10px;
+}
+.current-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount-percentage {
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.btn-bag {
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bag-items {
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}*/
+
 * {
     margin: 0;
     padding: 0;
@@ -143,67 +225,9 @@ header {
     text-align: end;
     padding: 15px;
 }
-
-.item-details {
-    cursor: pointer;
-    width: 250px;
-    margin: 10px;
+.action_container {
+    text-decoration: none;
 }
-.stars {
-    font-size: 12px;
-    font-weight: 700;
-    text-align: left;
-}
-.company {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    color: #282c3f;
-    margin-bottom: 6px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-top: 20px;
-}
-.item-name {
-    color: #535766;
-    font-size: 16px;
-    line-height: 1;
-    margin-bottom: 0;
-    margin-top: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: 400;
-    display: block;
-}
-.price-container {
-    margin-top: 10px;
-}
-.current-price {
-    font-size: 14px;
-    font-weight: 700;
-    color: #282c3f;
-}
-.original-price {
-    text-decoration: line-through;
-    color: #7e818c;
-    font-weight: 400;
-    margin-left: 5px;
-    font-size: 12px;
-}
-.discount-percentage {
-    color: #ff905a;
-    font-weight: 400;
-    font-size: 12px;
-    margin-left: 5px;
-}
-.btn-bag {
-    background-color: lightgreen;
-    border: none;
-    padding: 5px 15px;
-    border-radius: 10px;
-    width: 100%;
-    margin-top: 7px;
-    font-size: 20px;
+a.action_container:link {
+    color:black;
 }
