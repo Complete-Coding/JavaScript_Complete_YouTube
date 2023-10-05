@@ -1,5 +1,11 @@
 /***************** Item Page CSS **************************/
-/*.item-details {
+/*.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
+}
+.item-details {
     cursor: pointer;
     width: 250px;
     margin: 10px;
@@ -224,10 +230,4 @@ header {
     color: #94969f;
     text-align: end;
     padding: 15px;
-}
-.action_container {
-    text-decoration: none;
-}
-a.action_container:link {
-    color:black;
 }
