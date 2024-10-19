@@ -13,6 +13,7 @@ body {
   row-gap: 10px;
   margin-top: 10px;
   align-items: center;
+  justify-content : center;
 }
 
 #todo-input, #todo-date {
@@ -27,6 +28,10 @@ body {
   border-radius: 10px;
   padding: 15px 0px;
   cursor: pointer;
+}
+
+.btn-deleteAll{
+  grid-column : span 3;
 }
 
 .btn-todo {
